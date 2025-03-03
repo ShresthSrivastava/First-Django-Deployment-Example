@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+{% extends "basic_app/basic.html" %}
+
+    {% block body_block %}
+            <h1>Welcome to Index Inhertited</h1>
+            <h1>{{text|cut:"World"}}</h1>
+            <h1>{{number|add:"99"}}</h1>
+            
+    {% endblock %}
